@@ -1,0 +1,9 @@
+.background-position-homepage {
+    background-position: unset !important;
+}
+
+@media (min-width: 800px) {
+    .background-position-homepage {
+        background-position: center center !important;
+    }
+}
