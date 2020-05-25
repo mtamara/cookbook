@@ -2,6 +2,13 @@
     background-position: unset !important;
 }
 
+.card.homepage {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
 @media (min-width: 760px) {
     .background-position-homepage {
         background-position: center center !important;

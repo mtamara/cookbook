@@ -20,6 +20,14 @@ const LatestRecipes = () => {
                 />
                 <hr className="my-5" />
                 <LatestRecipe
+                    imgSource="/images/gibanica.jpg"
+                    category={RecipeCategoryEnum.MAIN_DISH}
+                    readMoreLink=""
+                    titleId="yummyfood.recipe.title.gibanica"
+                    origin={ReceipeOriginEnum.SERBIA}
+                />
+                <hr className="my-5" />
+                <LatestRecipe
                     imgSource="/images/rolat1.jpg"
                     category={RecipeCategoryEnum.MAIN_DISH}
                     readMoreLink=""

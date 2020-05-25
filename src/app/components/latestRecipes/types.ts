@@ -7,6 +7,7 @@ export enum RecipeCategoryEnum {
 }
 
 export enum ReceipeOriginEnum {
+    SERBIA = 'SERBIA',
     BOLIVIA = 'BOLIVIA',
     SWISS = 'SWISS',
     THAILAND = 'THAILAND',
