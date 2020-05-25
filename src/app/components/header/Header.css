@@ -6,6 +6,9 @@
     .background-position-homepage {
         background-position: center center !important;
     }
+}
+
+@media(min-width: 1050px) {
     .view.homepage {
         background-image: url("/images/homepage.JPG") !important;
     }
