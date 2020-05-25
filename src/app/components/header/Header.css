@@ -2,8 +2,11 @@
     background-position: unset !important;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
     .background-position-homepage {
         background-position: center center !important;
+    }
+    .view.homepage {
+        background-image: url("/images/homepage.JPG") !important;
     }
 }

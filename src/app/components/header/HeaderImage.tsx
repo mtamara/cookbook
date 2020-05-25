@@ -5,7 +5,7 @@ import './Header.css';
 
 const HeaderImage = () => {
     return (
-        <MDBView src="/images/homepage.JPG" className="background-position-homepage">
+        <MDBView src="/images/homepage_mobile.jpg" className="homepage background-position-homepage">
             <MDBMask overlay="stylish-light" className="flex-center flex-column text-white text-center">
                 <h2><FormattedMessage id="yummyfood.homepage.title" /></h2>
                 <h5><FormattedMessage id="yummyfood.homepage.subtitle" /></h5>
