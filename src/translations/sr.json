@@ -12,6 +12,10 @@
     "yummyfood.recipe.title.gibanica": "Gibanica",
     "yummyfood.recipe.title.phad-thai": "Phad Thai",
     "yummyfood.recipe.origin.BOLIVIA": "Bolivija",
-    "yummyfood.recipe.origin.SWISS": "Švajcarska",
-    "yummyfood.recipe.origin.THAILAND": "Tajland"
+    "yummyfood.recipe.origin.CENTRAL_EUROPE": "Centralna Evropa",
+    "yummyfood.recipe.origin.THAILAND": "Tajland",
+    "yummyfood.recipe.teaser.sopa-mani": "Supa od kikirikija je tradicionalni recept bolivijske gastronomije. Ukusno jelo koje, kao što mu ime kaže, ima kikiriki kao glavni sastojak. Supa od kikirikija u originalnoj verziji se pravi sa govedinom ili piletinom.",
+    "yummyfood.recipe.teaser.gibanica": "Gibanica je bez sumnje, jedan od najpoznatijih srpskih specijaliteta i nezaobilazna kulinarska ponuda Srbije. Nezaobilazna je na proslavama i slavskim trpezama. Najčešće se služi kao predjelo, ali se može jesti u bilo koje doba dana.",
+    "yummyfood.recipe.teaser.swiss-roll": "Švajcarski rolat, žele valjak, pecivo ili kolač sa kremom, vrsta je spužvastih kolača sa punjenim šlagom, džemom ili glazurom. Poreklo termina je nejasno. Uprkos nazivu \"švajcarski rolat\", veruje se da je kolač nastao negde drugde u centralnoj Evropi, verovatno u Austriji.",
+    "yummyfood.recipe.teaser.chickpea-curry": "Kari od leblebija je brz obrok u toku nedelje, a sadrži leblebije pune proteina u kremastom kariju. Dodavanjem soka limete, svežeg bosiljka i malo slatkoće stvaraju ukusan obrok u tajlandskom stilu."
 }

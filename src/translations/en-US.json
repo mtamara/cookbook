@@ -9,10 +9,14 @@
     "yummyfood.recipe.title.sopa-mani": "Peanut soup",
     "yummyfood.recipe.title.swiss-roll": "Swiss roll",
     "yummyfood.recipe.title.chickpea-curry": "Chickpea curry",
-    "yummyfood.recipe.title.gibanica": "Crumpled cheese pie",
+    "yummyfood.recipe.title.gibanica": "Cheese-filled Serbian gibanica",
     "yummyfood.recipe.title.phad-thai": "Phad Thai",
     "yummyfood.recipe.origin.BOLIVIA": "Bolivia",
-    "yummyfood.recipe.origin.SWISS": "Swiss",
+    "yummyfood.recipe.origin.CENTRAL_EUROPE": "Central Europe",
     "yummyfood.recipe.origin.THAILAND": "Thailand",
-    "yummyfood.recipe.origin.SERBIA": "Serbia"
+    "yummyfood.recipe.origin.SERBIA": "Serbia",
+    "yummyfood.recipe.teaser.sopa-mani": "Peanut soup is a delicious traditional recipe of Bolivian gastronomy. A delicious dish that, as its name suggests, has peanuts as its main ingredient. Originally the peanut soup is made with beef or chicken meat in the stew.",
+    "yummyfood.recipe.teaser.gibanica": "Gibanica is one of the most popular dishes in Serbia. It consists mainly of dough layers and lots of cheese. An easy recipe, quick to put together and altogether addicting pastry. It is perfect party food, commonly served as an appetizer.",
+    "yummyfood.recipe.teaser.swiss-roll": "A Swiss roll, jelly roll, roll cake, or cream roll, or Swiss log, is a type of sponge cake roll filled with whipped cream, jam, or icing. The origins of the term are unclear. In spite of the name \"Swiss roll\", the cake is believed to have originated elsewhere in Central Europe, likely Austria.",
+    "yummyfood.recipe.teaser.chickpea-curry": "The chickpea curry is a fast weeknight meal, featuring protein-packed chickpeas in a creamy curry base. Adding a squeeze of lime, fresh basil, and a little sweetness create a delicious Thai-style flavor."
 }

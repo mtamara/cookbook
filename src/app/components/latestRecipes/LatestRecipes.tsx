@@ -12,11 +12,30 @@ const LatestRecipes = () => {
                     <FormattedMessage id="yummyfood.title.recent-recipes" />
                 </h2>
                 <LatestRecipe
+                    imgSource="/images/rolat.jpg"
+                    category={RecipeCategoryEnum.MAIN_DISH}
+                    readMoreLink=""
+                    titleId="yummyfood.recipe.title.swiss-roll"
+                    origin={ReceipeOriginEnum.CENTRAL_EUROPE}
+                    teaserId="yummyfood.recipe.teaser.swiss-roll"
+                />
+                <hr className="my-5" />
+                <LatestRecipe
+                    imgSource="/images/chickpea_curry.JPG"
+                    category={RecipeCategoryEnum.MAIN_DISH}
+                    readMoreLink=""
+                    titleId="yummyfood.recipe.title.chickpea-curry"
+                    origin={ReceipeOriginEnum.THAILAND}
+                    teaserId="yummyfood.recipe.teaser.chickpea-curry"
+                />
+                <hr className="my-5" />
+                <LatestRecipe
                     imgSource="/images/sopa_de_mani.JPG"
                     category={RecipeCategoryEnum.MAIN_DISH}
                     readMoreLink=""
                     titleId="yummyfood.recipe.title.sopa-mani"
                     origin={ReceipeOriginEnum.BOLIVIA}
+                    teaserId="yummyfood.recipe.teaser.sopa-mani"
                 />
                 <hr className="my-5" />
                 <LatestRecipe
@@ -25,22 +44,7 @@ const LatestRecipes = () => {
                     readMoreLink=""
                     titleId="yummyfood.recipe.title.gibanica"
                     origin={ReceipeOriginEnum.SERBIA}
-                />
-                <hr className="my-5" />
-                <LatestRecipe
-                    imgSource="/images/rolat1.jpg"
-                    category={RecipeCategoryEnum.MAIN_DISH}
-                    readMoreLink=""
-                    titleId="yummyfood.recipe.title.swiss-roll"
-                    origin={ReceipeOriginEnum.SWISS}
-                />
-                <hr className="my-5" />
-                <LatestRecipe
-                    imgSource="/images/chickpea_curry.jpg"
-                    category={RecipeCategoryEnum.MAIN_DISH}
-                    readMoreLink=""
-                    titleId="yummyfood.recipe.title.chickpea-curry"
-                    origin={ReceipeOriginEnum.THAILAND}
+                    teaserId="yummyfood.recipe.teaser.gibanica"
                 />
                 <hr className="my-5" />
                 <LatestRecipe
@@ -49,6 +53,7 @@ const LatestRecipes = () => {
                     readMoreLink=""
                     titleId="yummyfood.recipe.title.phad-thai"
                     origin={ReceipeOriginEnum.THAILAND}
+                    teaserId="yummyfood.recipe.teaser.sopa-mani"
                 />
             </MDBCardBody>
         </MDBCard>

@@ -9,7 +9,7 @@ export enum RecipeCategoryEnum {
 export enum ReceipeOriginEnum {
     SERBIA = 'SERBIA',
     BOLIVIA = 'BOLIVIA',
-    SWISS = 'SWISS',
+    CENTRAL_EUROPE = 'CENTRAL_EUROPE',
     THAILAND = 'THAILAND',
 }
 
@@ -19,4 +19,5 @@ export interface LatestRecipeProps {
     readMoreLink: string;
     titleId: string;
     origin?: string;
+    teaserId: string;
 }

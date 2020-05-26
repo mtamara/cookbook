@@ -29,12 +29,7 @@ const LatestRecipe = React.memo((props: LatestRecipeProps) => {
                 <h3 className="font-weight-bold mb-3 p-0">
                     <strong><FormattedMessage id={props.titleId} /></strong>
                 </h3>
-                <p>
-                    Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                    nihil impedit quo minus id quod maxime placeat facere possimus,
-                    omnis voluptas assumenda est, omnis dolor repellendus et aut
-                    officiis debitis.
-                        </p>
+                <p className="text-justify"><FormattedMessage id={props.teaserId}/></p>
                 <h6 className="font-weight-bold mb-3">
                     <MDBIcon icon="globe-americas" className="pr-2" />
                     <FormattedMessage id={`yummyfood.recipe.origin.${props.origin}`} />
