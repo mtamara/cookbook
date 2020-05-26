@@ -12,7 +12,16 @@ const LatestRecipes = () => {
                     <FormattedMessage id="yummyfood.title.recent-recipes" />
                 </h2>
                 <LatestRecipe
-                    imgSource="/images/rolat.jpg"
+                    imgSource="/images/tortellini.JPG"
+                    category={RecipeCategoryEnum.MAIN_DISH}
+                    readMoreLink=""
+                    titleId="yummyfood.recipe.title.tortellini"
+                    origin={ReceipeOriginEnum.CENTRAL_EUROPE}
+                    teaserId="yummyfood.recipe.teaser.swiss-roll"
+                />
+                <hr className="my-5" />
+                <LatestRecipe
+                    imgSource="/images/rolat.JPG"
                     category={RecipeCategoryEnum.MAIN_DISH}
                     readMoreLink=""
                     titleId="yummyfood.recipe.title.swiss-roll"
@@ -53,7 +62,7 @@ const LatestRecipes = () => {
                     readMoreLink=""
                     titleId="yummyfood.recipe.title.phad-thai"
                     origin={ReceipeOriginEnum.THAILAND}
-                    teaserId="yummyfood.recipe.teaser.sopa-mani"
+                    teaserId="yummyfood.recipe.teaser.phad-thai"
                 />
             </MDBCardBody>
         </MDBCard>
