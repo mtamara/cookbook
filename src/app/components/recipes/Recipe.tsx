@@ -5,8 +5,8 @@ import { FormattedMessage } from 'react-intl';
 
 const Recipe = React.memo((props: RecipeProps) => {
     return (
-        <MDBCol md="4" className="recipe-col">
-            <MDBCard cascade>
+        <MDBCol md="6" lg="4" className="recipe-col">
+            <MDBCard cascade className="recipe-card">
                 <div className="position-relative">
                     <MDBCardImage
                         cascade
@@ -29,7 +29,7 @@ const Recipe = React.memo((props: RecipeProps) => {
                         <FormattedMessage id={props.titleId} />
                     </MDBCardTitle>
                     <hr />
-                    <MDBCardText>
+                    <MDBCardText className="text-justify">
                         <FormattedMessage id={props.teaserId} />
                     </MDBCardText>
                 </MDBCardBody>

@@ -14,7 +14,7 @@ const Recipes = () => {
                     readMoreLink=""
                     titleId="yummyfood.recipe.title.tortellini"
                     origin={ReceipeOriginEnum.ITALIA}
-                    teaserId="yummyfood.recipe.teaser.swiss-roll"
+                    teaserId="yummyfood.recipe.teaser.tortellini"
                 />
                 <Recipe
                     imgSource="/images/rolat.JPG"

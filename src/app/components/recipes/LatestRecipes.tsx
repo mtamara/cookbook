@@ -17,7 +17,7 @@ const LatestRecipes = () => {
                     readMoreLink=""
                     titleId="yummyfood.recipe.title.tortellini"
                     origin={ReceipeOriginEnum.ITALIA}
-                    teaserId="yummyfood.recipe.teaser.swiss-roll"
+                    teaserId="yummyfood.recipe.teaser.tortellini"
                 />
                 <hr className="my-5" />
                 <LatestRecipe
