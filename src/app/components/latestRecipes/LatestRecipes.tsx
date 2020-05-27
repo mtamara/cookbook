@@ -16,7 +16,7 @@ const LatestRecipes = () => {
                     category={RecipeCategoryEnum.MAIN_DISH}
                     readMoreLink=""
                     titleId="yummyfood.recipe.title.tortellini"
-                    origin={ReceipeOriginEnum.CENTRAL_EUROPE}
+                    origin={ReceipeOriginEnum.ITALIA}
                     teaserId="yummyfood.recipe.teaser.swiss-roll"
                 />
                 <hr className="my-5" />

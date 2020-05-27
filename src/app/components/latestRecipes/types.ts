@@ -11,6 +11,7 @@ export enum ReceipeOriginEnum {
     BOLIVIA = 'BOLIVIA',
     CENTRAL_EUROPE = 'CENTRAL_EUROPE',
     THAILAND = 'THAILAND',
+    ITALIA = 'ITALIA',
 }
 
 export interface LatestRecipeProps {
