@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBView, MDBMask } from 'mdbreact';
 import { FormattedMessage } from 'react-intl';
-import './Header.css';
+import './Homepage.css';
 
 const HeaderImage = () => {
     return (

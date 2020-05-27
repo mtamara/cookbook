@@ -1,10 +1,10 @@
 import React from 'react';
 import { MDBRow, MDBCol, MDBMask, MDBIcon, MDBView, MDBBtn } from "mdbreact";
 import './LatestRecipes.css';
-import { LatestRecipeProps } from './types';
+import { RecipeProps } from './types';
 import { FormattedMessage } from 'react-intl';
 
-const LatestRecipe = React.memo((props: LatestRecipeProps) => {
+const LatestRecipe = React.memo((props: RecipeProps) => {
     return (
         <MDBRow>
             <MDBCol lg="5">

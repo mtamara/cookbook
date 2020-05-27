@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon, MDBFormInline, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
 const Navbar = () => {
@@ -10,7 +9,6 @@ const Navbar = () => {
   return (
     <div>
       <header>
-        <Router>
           <MDBNavbar color="peach-gradient" dark expand="md" fixed="top">
             <MDBNavbarBrand href="/">
               <strong>Yummy Food</strong>
@@ -19,7 +17,7 @@ const Navbar = () => {
             <MDBCollapse isOpen={collapse} navbar>
               <MDBNavbarNav left>
                 <MDBNavItem>
-                  <MDBNavLink link to='#!'>
+                  <MDBNavLink link to="/recipes">
                     <FormattedMessage id="yummyfood.navbar.recipes" />
                   </MDBNavLink>
                 </MDBNavItem>
@@ -50,7 +48,6 @@ const Navbar = () => {
               </MDBNavbarNav>
             </MDBCollapse>
           </MDBNavbar>
-        </Router>
       </header>
     </div>
   )

@@ -14,7 +14,7 @@ export enum ReceipeOriginEnum {
     ITALIA = 'ITALIA',
 }
 
-export interface LatestRecipeProps {
+export interface RecipeProps {
     imgSource: string;
     category: RecipeCategoryEnum;
     readMoreLink: string;

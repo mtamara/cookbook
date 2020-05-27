@@ -1,6 +1,6 @@
 import React from 'react';
-import LatestRecipes from '../latestRecipes/LatestRecipes';
-import HeaderImage from '../header/HeaderImage';
+import LatestRecipes from '../recipes/LatestRecipes';
+import HeaderImage from './HeaderImage';
 
 const IntroPage = () => {
     return (
